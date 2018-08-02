@@ -36,7 +36,7 @@ Use the resources listed in the next section to keep track of new security devel
  - Upgrade to the latest version of any tool or library as soon as possible
  - Adopt new security techniques that appear useful
 
-#Be aware of blockchain properties
+# Be aware of blockchain properties
 While much of your programming experience will be relevant to Ethereum programming, there are some pitfalls to be aware of.
 
  - Be extremely careful about external contract calls, which may execute malicious code and change control flow.
