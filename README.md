@@ -1,3 +1,3 @@
 ### Resources for Ethereum Development 
 
-Setup instructions, best practices, and introductory exercise
+Setup instructions for Mac, Windows, and Linux, introductory exercise, best practices

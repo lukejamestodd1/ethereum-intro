@@ -31,10 +31,13 @@ brew upgrade ethereum
 brew install node
 ```
 
-8) Install [Truffle](https://truffleframework.com)
+8) Install [Truffle 4](https://truffleframework.com)
 ```
-npm install -g truffle
+npm uninstall -g truffle
+npm install -g truffle@4.0.4
 truffle version
 ```
 
 9) Install solidity/ethereum support for your text editor
+
+10) Add [Metamask](https://metamask.io) to your browser
