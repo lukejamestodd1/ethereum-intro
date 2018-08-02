@@ -1,0 +1,40 @@
+### Ethereum Development Environment Setup (Mac)
+
+1) Update MacOS
+
+2) Install `Xcode` from the App Store
+
+3) Install `Xcode Command Line Tools`
+```
+xcode-select --install
+```
+
+4) Install `Homebrew`
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew --version
+```
+
+5) Install the latest versions of `Ethereum` and `Geth`
+```
+brew update
+brew tap ethereum/ethereum
+brew install ethereum
+brew upgrade ethereum
+```
+
+6) Install [Ganache](https://truffleframework.com/ganache)
+
+
+7) Install `Node` and `NPM`
+```
+brew install node
+```
+
+8) Install [Truffle](https://truffleframework.com)
+```
+npm install -g truffle
+truffle version
+```
+
+9) Install solidity/ethereum support for your text editor
