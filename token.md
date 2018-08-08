@@ -25,7 +25,7 @@ line 111 - function DayByDayToken() public {
 
 9) On ByteCode press the button to copy the ByteCode to the clipboard. Paste this into a text editor. Now delete everything apart from the "object" part of the code. Put 0x in front of the property for Bytecode, so you end up something like this:
 ```
-	"object": "0x608060405234801561...(more numbers and letters)..0f0280e2f460029"
+	0x608060405234801561...(more numbers and letters)..0f0280e2f460029
 ```
 
 ### Deploy your contract to the blockchain
@@ -33,17 +33,17 @@ line 111 - function DayByDayToken() public {
 
 11) Paste the bytecode into the ByteCode box. The gas limit should update automatically. If it doesn't check your bytecode is the correct format ie - 
 ```
-"object" : "0xByteCode"
+0xByteCode
 ```
 
 12) Access your wallet by selecting private key -> enter private key. Or upload the key store file to open your wallet. Press Sign Transaction then Deploy Contract.
 
 13) Click on the transaction tx or go to  https://ropsten.etherscan.io to make sure the contract deployed.
 
-### Verify the contract
+### Verify and Publish the contract
 
-14) Now we must register and verify the contract. Click the Overview tab and click the Contract Address. You can also find the contract address by navigating to your wallet address and looking for the contract you deployed in the transactions list. On the contract address go to the Contract Code tab and click Verify and Publish
+14) Now we must verify and publish the contract. Click the Overview tab and click the Contract Address. You can also find the contract address by navigating to your wallet address and looking for the contract you deployed in the transactions list. On the contract address go to the Contract Code tab and click Verify and Publish
 
 15) There are 5 things to complete here:
- 1 - Make sure
+
 
